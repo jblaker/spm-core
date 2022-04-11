@@ -11,26 +11,12 @@ let BrightcovePlayerSDK = Package(
         ],
     products: [
             .library(
-                name: "BrightcovePlayerSDK for iOS (Dynamic)",
-                targets: ["BrightcovePlayerSDK_ios_dynamic"]),
-            .library(
-                name: "BrightcovePlayerSDK for iOS (Static)",
-                targets: ["BrightcovePlayerSDK_ios_static"]),
-            .library(
-                name: "BrightcovePlayerSDK for tvOS",
-                targets: ["BrightcovePlayerSDK_tvos"])
+                name: "BrightcovePlayerSDK",
+                targets: ["BrightcovePlayerSDK"])
         ],
     targets: [
         .binaryTarget(
-                    name: "BrightcovePlayerSDK_ios_dynamic",
-                    path: "xcframework/dynamic/BrightcovePlayerSDK.xcframework"
-                ),
-        .binaryTarget(
-                    name: "BrightcovePlayerSDK_ios_static",
-                    path: "xcframework/static/BrightcovePlayerSDK.xcframework"
-                ),
-        .binaryTarget(
-                    name: "BrightcovePlayerSDK_tvos",
+                    name: "BrightcovePlayerSDK",
                     path: "xcframework/dynamic/BrightcovePlayerSDK.xcframework"
                 )
     ]
