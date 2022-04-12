@@ -1,4 +1,4 @@
-# Brightcove Player SDK for iOS, version 6.10.4.2043
+# Brightcove Player SDK for iOS, version {!{ versionnumber placeholder string }!}
 
 
 ## Table of Contents
@@ -12,6 +12,7 @@
 1. [Installation](#Installation)
 1. [CocoaPods](#CocoaPods)
 1. [Manual Installaion](#ManualInstallation)
+1. [Swift Package Manager](#SwiftPackageManager)
 1. [Imports](#Imports)
 1. [Quick Start](#QuickStart)
 1. [Built-In PlayerUI Controls for iOS](#PlayerUI)
@@ -240,6 +241,18 @@ Brightcove-Player-IMA | <https://github.com/brightcove/brightcove-player-sdk-ios
 Brightcove-Player-Omniture | <https://github.com/brightcove/brightcove-player-sdk-ios-omniture/releases>
 Brightcove-Player-Pulse | <https://github.com/brightcove/brightcove-player-sdk-ios-pulse/releases>
 Brightcove-Player-SSAI | <https://github.com/brightcove/brightcove-player-sdk-ios-ssai/releases>
+
+### Swift Package Manager <a name="SwiftPackageManager"></a>
+
+To add the Brightcove Player SDK to your project with Swift Package Manager: 
+
+1. Select the "Package Dependencies" tab for your Project/
+1. Click the "+" button/
+1. In the "Search or Enter Package URL" field enter `https://github.com/brightcove/brightcove-player-sdk-ios.git`
+1. When the UI updates click the "Add Package" button/
+1. After Xcode processess the repo you'll be prompted to "Choose Package Products" ensure that your app target is selected and click the "Add Package" button.
+
+*Note: Only the dynamic XCFramework is supported for Swift Package Manager.*
 
 ### Imports <a name="Imports"></a>
 
